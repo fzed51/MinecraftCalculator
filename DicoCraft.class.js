@@ -7,6 +7,7 @@ DicoCraft = (function(global){
 		var that = this;
 		if(jQuery){
 			$.ajax({
+				async: false,
 				type: "GET",
 				url: fichierXML,
 				dataType: "xml",
@@ -55,7 +56,7 @@ DicoCraft = (function(global){
 	}
 	DicoCraft.prototype.addCraft = function(craft)
 	{	
-		if(!this.craftExiste(craft.getNom()){
+		if(!this.craftExiste(craft.getNom())){
 			this._liste.push(craft);
 			if(craft.getQte() == 0){
 				this._ressource.push(craft); 
@@ -71,10 +72,12 @@ DicoCraft = (function(global){
 	{
 		var element = this.getCraft(nomCraft),
 			listeRessource = Array();
-		for(var i=0; i<this._ressource; i++){
+		for(var i=0; i<this._ressource.length; i++){
 			var ressource = this._ressource[i];
 			var qteRessource = ressource.getQteFor(this._liste, element, qte);
+			if(qteRessource>0)listeRessource.push(Array(qteRessource, ressource));
 		}
+		return listeRessource;
 	}
 	DicoCraft.prototype.getListe = function()
 	{

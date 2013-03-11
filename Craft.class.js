@@ -54,14 +54,35 @@ Craft = (function(global){
 	};
 	Craft.prototype.getQteFor = function(liste, element, qte)
 	{
-		var ressources = Array();
-		for(var i=0; i<liste.length; i){
-			var ressource = liste[i],
-				qteCraft = ressource.getQte();
-			if(qteCraft>0){
-				
+		if(element == this) return qte;
+		var totalQte = 0;
+		for(var i=0; i<liste.length; i++){
+			var elem = liste[i],
+				qteIngr,
+				qteCraft,
+				qteElem,
+				qteDem,
+				coef,
+				trace;
+			trace = elem._nom + " a " + this._nom + " comme ingedient?";
+			qteCraft = elem.getQte();
+			if(qteCraft>0 && elem.ingredientExiste(this)){
+				qteIngr = elem.getQteIngredient(this);
+				qteElem = elem.getQteFor(liste, element, qte);
+				coef = Math.ceil(qteElem/qteCraft);
+				totalQte += coef*qteIngr;
 			}
 		}
+		return totalQte;
+	}
+	Craft.prototype.getQteIngredient =function(element)
+	{
+		var ingrs = this._recipe, qte = 0;
+		for(var i =0; ingrs.length; i++){
+			var ingr = ingrs[i];
+			if(ingr[1] == element) return ingr[0];
+		}
+		return 0;
 	}
 	return Craft;
 })(window)
