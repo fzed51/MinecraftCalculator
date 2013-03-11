@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CRAFTS>
+	<ELEMENT nom="buche">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="planche">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="buche" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="baton">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="planche" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="echelle">
+		<QTE>3</QTE>
+		<RECIPE>		
+			<INGEDIENT qte="7" nom="baton" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="charbon">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="torche">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="charbon" />			
+			<INGEDIENT qte="1" nom="baton" />			
+		</RECIPE>
+	</ELEMENT>
+</CRAFTS>
