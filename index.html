@@ -4,13 +4,33 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<script type="text/javascript" src="jQuery.js"></script>
-	<script type="text/javascript" src="elementMC.js"></script>
+	<script type="text/javascript" src="DicoCraft.class.js"></script>
+	<script type="text/javascript" src="Craft.class.js"></script>
 	<script type="text/javascript">
+	function initChoixCraft(dico){
+		var lstCraft = dico._craft,
+			select = $('#craft');
+		for(var i=0;i<lstCraft.length;i++){
+			var nom = lstCraft[i].getNom();
+			var opt =$('<option>').attr('value',nom).text(nom);
+			select.append(opt);
+		}
+	}
+	
 	var dico = new DicoCraft('elementMC.xml');
-	dico.getRessourceFor();
+	$(function(){
+		initChoixCraft(dico);
+	});
 	</script>
 </head>
 <body>
-	<p>TEST</p>
+	<form id="calcul">
+		<label for="craft">Craft</label><select name="craft" id="craft">
+		</select>
+		<label for="nbCraft"></label><input name="nbCraft" id="nbCraft" type="text" />
+		<input id="run" type="button" value="Calculer"/>
+	</form>
+	<div id="result">
+	</div>
 </body>
 </html>
