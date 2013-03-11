@@ -20,6 +20,16 @@
 	var dico = new DicoCraft('elementMC.xml');
 	$(function(){
 		initChoixCraft(dico);
+		$('#run').on('click', function(){
+			var nomElem = $('#craft').val();
+			var qteElem = $('#nbCraft').val();
+			var result = dico.getRessourceFor(nomElem, qteElem);
+			var strResult = '';
+			for(var i=0;i<result.length; i++){
+				strResult += '<p>' + result[i][0] + ' ' + result[i][1].getNom() + '</p>';
+			}
+			$('#result').html(strResult);
+		});
 	});
 	</script>
 </head>
