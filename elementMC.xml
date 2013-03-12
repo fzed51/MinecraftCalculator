@@ -140,6 +140,12 @@
 			<INGEDIENT qte="1" nom="baton" />			
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="four">
+		<QTE>41</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="pierre" />		
+		</RECIPE>
+	</ELEMENT>
 	<!-- Industrial craft 2 -->
 	<ELEMENT nom="tin">
 		<QTE>0</QTE>
@@ -151,6 +157,27 @@
 		<QTE>0</QTE>
 	</ELEMENT>	
 	<ELEMENT nom="uranium">
+		<QTE>0</QTE>
+	</ELEMENT>	
+	<ELEMENT nom="refined iron">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="coal dust">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="clay dust">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="gold dust">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="iron dust">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="copper dust">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="tin dust">
 		<QTE>0</QTE>
 	</ELEMENT>
 	<ELEMENT nom="tin cable">
@@ -190,6 +217,45 @@
 		<RECIPE>
 			<INGEDIENT qte="1" nom="single insulted gold cable" />		
 			<INGEDIENT qte="1" nom="rubber" />		
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="re battery">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="insulted copper cable" />
+			<INGEDIENT qte="2" nom="redstone" />
+			<INGEDIENT qte="4" nom="tin" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="machine bloc">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="refined iron" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="electronic circuit">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="6" nom="insulted copper cable" />
+			<INGEDIENT qte="2" nom="redstone" />
+			<INGEDIENT qte="1" nom="refined iron" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="generator">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="re battery" />		
+			<INGEDIENT qte="1" nom="machine bloc" />		
+			<INGEDIENT qte="1" nom="four" />	
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="solar panel">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="coal dust" />		
+			<INGEDIENT qte="3" nom="verre" />		
+			<INGEDIENT qte="1" nom="generator" />		
+			<INGEDIENT qte="2" nom="electronic circuit" />		
 		</RECIPE>
 	</ELEMENT>
 </CRAFTS>
