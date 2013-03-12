@@ -64,13 +64,15 @@ Craft = (function(global){
 				qteDem,
 				coef,
 				trace;
-			trace = elem._nom + " a " + this._nom + " comme ingedient?";
 			qteCraft = elem.getQte();
-			if(qteCraft>0 && elem.ingredientExiste(this)){
-				qteIngr = elem.getQteIngredient(this);
-				qteElem = elem.getQteFor(liste, element, qte);
-				coef = Math.ceil(qteElem/qteCraft);
-				totalQte += coef*qteIngr;
+			if(qteCraft>0){
+				trace = elem._nom + " a " + this._nom + " comme ingedient?";
+				if(elem.ingredientExiste(this)){
+					qteIngr = elem.getQteIngredient(this);
+					qteElem = elem.getQteFor(liste, element, qte);
+					coef = Math.ceil(qteElem/qteCraft);
+					totalQte += coef*qteIngr;
+				}
 			}
 		}
 		return totalQte;
