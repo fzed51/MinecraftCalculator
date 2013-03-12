@@ -14,11 +14,15 @@ DicoCraft = (function(global){
 				success: function(xml){
 					$(xml).find('ELEMENT').each(
 						function(){
-							var elem;
-							var nom = $(this).attr('nom');
+							var elem,
+								nom = $(this).attr('nom'),
+								libelle = null;
+							if(typeof(global.MCC_LANGAGE) !== 'undefined'){
+								libelle + $(this).attr(global.MCC_LANGAGE);
+							}
 							var qte = parseInt($(this).find('QTE').text());
 							if(!that.craftExiste(nom)){
-								elem = new Craft(nom);
+								elem = new Craft(nom, libelle);
 								elem.setQte(qte);
 								$(this).find('RECIPE').find('INGEDIENT').each(
 									function(){

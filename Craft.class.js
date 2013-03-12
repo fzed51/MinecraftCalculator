@@ -1,6 +1,11 @@
 Craft = (function(global){
-	var Craft = function(/*string*/ nom){
+	var Craft = function(/*string*/ nom, /*string*/libelle){
 		this._nom = nom;
+		if(libelle == null || libelle == ''){
+			this._libelle = nom;
+		}else{			
+			this._libelle = libelle;
+		}
 		this._qte = 0;
 		this._recipe = Array();
 		this._strRecipe = '';
@@ -25,6 +30,11 @@ Craft = (function(global){
 	Craft.prototype.getNom = function()
 	{
 		var loc = ""+this._nom;
+		return loc;
+	}
+	Craft.prototype.getLibelle = function()
+	{
+		var loc= ""+this._libelle;
 		return loc;
 	}
 	Craft.prototype.getQte = function()

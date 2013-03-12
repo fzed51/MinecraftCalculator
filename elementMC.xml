@@ -1,159 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CRAFTS>
 	<!-- Vanilla -->
-	<ELEMENT nom="bois" mod="MC">
+	<ELEMENT nom="wood" fr="bois" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="gravier" mod="MC">
+	<ELEMENT nom="gravel" fr="gravier" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="neige" mod="MC">
+	<ELEMENT nom="snowball" fr="neige" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="obsidienne" mod="MC">
+	<ELEMENT nom="obsidian" fr="obsidienne" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="pierre" mod="MC">
+	<ELEMENT nom="cobblestone" fr="pierre" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="roche" mod="MC">
+	<ELEMENT nom="stone" fr="roche" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="sable" mod="MC">
+	<ELEMENT nom="sand" fr="sable" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="terre" mod="MC">
+	<ELEMENT nom="dirt" fr="terre" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="verre" mod="MC">
+	<ELEMENT nom="glass" fr="verre" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="laine" mod="MC">
+	<ELEMENT nom="wool" fr="laine" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="redstone" mod="MC">
+	<ELEMENT nom="redstone" fr="redstone" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="ble" mod="MC">
+	<ELEMENT nom="wheat" fr="ble" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="cactus" mod="MC">
+	<ELEMENT nom="cactus" fr="cactus" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="canne a sucre" mod="MC">
+	<ELEMENT nom="sugar cane" fr="canne a sucre" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="champignon" mod="MC">
+	<ELEMENT nom="mushrooms" fr="champignon" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="citrouille" mod="MC">
+	<ELEMENT nom="pumpkin" fr="citrouille" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="feuillage" mod="MC">
+	<ELEMENT nom="leaves" fr="feuillage" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="fleur" mod="MC">
+	<ELEMENT nom="flowers" fr="fleur" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="sable des ames" mod="MC">
+	<ELEMENT nom="soul sand" fr="sable des ames" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="verrue du nether" mod="MC">
+	<ELEMENT nom="nether wart" fr="verrue du nether" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="argile" mod="MC">
+	<ELEMENT nom="clay" fr="argile" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="baton de blaze" mod="MC">
+	<ELEMENT nom="blaze rod" fr="baton de blaze" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="boule de slime" mod="MC">
+	<ELEMENT nom="slimeball" fr="boule de slime" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="cuir" mod="MC">
+	<ELEMENT nom="leather" fr="cuir" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="emeraude" mod="MC">
+	<ELEMENT nom="emerald" fr="emeraude" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="ficelle" mod="MC">
+	<ELEMENT nom="string" fr="ficelle" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="diamant" mod="MC">
+	<ELEMENT nom="diamond" fr="diamant" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="larme de ghast" mod="MC">
+	<ELEMENT nom="ghast tear" fr="larme de ghast" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="perle du nean" mod="MC">
+	<ELEMENT nom="ender pearl" fr="perle du nean" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="plume" mod="MC">
+	<ELEMENT nom="feather" fr="plume" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="poudre a canon" mod="MC">
+	<ELEMENT nom="gunpowder" fr="poudre a canon" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="poudre de glowstone" mod="MC">
+	<ELEMENT nom="glowstone dust" fr="poudre de glowstone" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="silex" mod="MC">
+	<ELEMENT nom="flint" fr="silex" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="etoile du nether" mod="MC">
+	<ELEMENT nom="nether star" fr="etoile du nether" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="fer" mod="MC">
+	<ELEMENT nom="iron" fr="fer" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="or" mod="MC">
+	<ELEMENT nom="gold" fr="or" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="os" mod="MC">
+	<ELEMENT nom="bone" fr="os" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="lapis lazuli" mod="MC">
+	<ELEMENT nom="lapis lazuli" fr="lapis lazuli" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="planche" mod="MC">
+	<ELEMENT nom="wood planks" fr="planche" mod="MC">
 		<QTE>4</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="bois" />			
+			<INGEDIENT qte="1" nom="wood" />			
 		</RECIPE>
 	</ELEMENT>
-	<ELEMENT nom="baton" mod="MC">
+	<ELEMENT nom="stick" fr="baton" mod="MC">
 		<QTE>4</QTE>
 		<RECIPE>
-			<INGEDIENT qte="2" nom="planche" />			
+			<INGEDIENT qte="2" nom="wood planks" />			
 		</RECIPE>
 	</ELEMENT>
-	<ELEMENT nom="echelle" mod="MC">
+	<ELEMENT nom="ladder" fr="echelle" mod="MC">
 		<QTE>3</QTE>
 		<RECIPE>		
-			<INGEDIENT qte="7" nom="baton" />			
+			<INGEDIENT qte="7" nom="stick" />			
 		</RECIPE>
 	</ELEMENT>
-	<ELEMENT nom="charbon" mod="MC">
+	<ELEMENT nom="coal" fr="charbon" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
-	<ELEMENT nom="torche" mod="MC">
+	<ELEMENT nom="torch" fr="torche" mod="MC">
 		<QTE>4</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="charbon" />			
-			<INGEDIENT qte="1" nom="baton" />			
+			<INGEDIENT qte="1" nom="coal" />			
+			<INGEDIENT qte="1" nom="stick" />			
 		</RECIPE>
 	</ELEMENT>
-	<ELEMENT nom="levier" mod="MC">
+	<ELEMENT nom="lever" fr="levier" mod="MC">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="pierre" />			
-			<INGEDIENT qte="1" nom="baton" />			
+			<INGEDIENT qte="1" nom="cobblestone" />			
+			<INGEDIENT qte="1" nom="stick" />			
 		</RECIPE>
 	</ELEMENT>
-	<ELEMENT nom="four" mod="MC">
+	<ELEMENT nom="furnace" fr="four" mod="MC">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="8" nom="pierre" />		
+			<INGEDIENT qte="8" nom="cobblestone" />		
 		</RECIPE>
 	</ELEMENT>
 	<!-- Industrial craft 2 -->
@@ -165,10 +165,13 @@
 	</ELEMENT>	
 	<ELEMENT nom="copper" mod="IC2">
 		<QTE>0</QTE>
-	</ELEMENT>	
+	</ELEMENT>
 	<ELEMENT nom="uranium" mod="IC2">
 		<QTE>0</QTE>
-	</ELEMENT>	
+	</ELEMENT>
+	<ELEMENT nom="matter" mod="IC2">
+		<QTE>0</QTE>
+	</ELEMENT>
 	<ELEMENT nom="refined iron" mod="IC2">
 		<QTE>0</QTE>
 	</ELEMENT>
@@ -218,7 +221,7 @@
 	<ELEMENT nom="gold cable" mod="IC2">
 		<QTE>12</QTE>
 		<RECIPE>
-			<INGEDIENT qte="3" nom="or" />		
+			<INGEDIENT qte="3" nom="gold" />		
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="1ins. gold cable" mod="IC2">
@@ -265,9 +268,9 @@
 	<ELEMENT nom="glass fibre cable" mod="IC2">
 		<QTE>4</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="diamant" />		
+			<INGEDIENT qte="1" nom="diamond" />		
 			<INGEDIENT qte="2" nom="redstone" />		
-			<INGEDIENT qte="6" nom="verre" />		
+			<INGEDIENT qte="6" nom="glass" />		
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="machine" mod="IC2">
@@ -296,7 +299,7 @@
 		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="1" nom="elec. circuit" />
-			<INGEDIENT qte="2" nom="poudre de glowstone" />
+			<INGEDIENT qte="2" nom="glowstone dust" />
 			<INGEDIENT qte="2" nom="lapis lazuli" />
 			<INGEDIENT qte="4" nom="redstone" />
 		</RECIPE>
@@ -312,7 +315,7 @@
 	<ELEMENT nom="energy cristal" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="diamant" />
+			<INGEDIENT qte="1" nom="diamond" />
 			<INGEDIENT qte="8" nom="redstone" />
 		</RECIPE>
 	</ELEMENT>
@@ -335,7 +338,7 @@
 	<ELEMENT nom="splitter cable" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="levier" />	
+			<INGEDIENT qte="1" nom="lever" />	
 			<INGEDIENT qte="2" nom="3ins. hv cable" />	
 			<INGEDIENT qte="2" nom="redstone" />	
 		</RECIPE>
@@ -345,27 +348,66 @@
 		<RECIPE>
 			<INGEDIENT qte="1" nom="re battery" />		
 			<INGEDIENT qte="1" nom="machine" />		
-			<INGEDIENT qte="1" nom="four" />	
+			<INGEDIENT qte="1" nom="furnace" />	
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="solar panel" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="3" nom="coal dust" />		
-			<INGEDIENT qte="3" nom="verre" />		
+			<INGEDIENT qte="3" nom="glass" />		
 			<INGEDIENT qte="1" nom="generator" />		
 			<INGEDIENT qte="2" nom="elec. circuit" />		
 		</RECIPE>
 	</ELEMENT>
-	<!-- mod IC2 Adv. solar panel -->
-	<ELEMENT nom="adv.solar panel" mod="IC2">
+	<ELEMENT nom="reinforced glass" mod="IC2">
+		<QTE>7</QTE>
+		<RECIPE>
+			<INGEDIENT qte="7" nom="glass" />
+			<INGEDIENT qte="2" nom="adv. alloy" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="iridium" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="3" nom="reinforced glass" />		
-			<INGEDIENT qte="2" nom="adv. alloy" />		
-			<INGEDIENT qte="2" nom="adv. circuit" />		
-			<INGEDIENT qte="1" nom="solar panel" />		
-			<INGEDIENT qte="1" nom="adv. machine" />		
+			<INGEDIENT qte="7" nom="matter" />
 		</RECIPE>
-	</ELEMENT>	
+	</ELEMENT>
+	<ELEMENT nom="iridium plate" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="diamond" />
+			<INGEDIENT qte="4" nom="adv. alloy" />
+			<INGEDIENT qte="4" nom="iridium" />
+		</RECIPE>
+	</ELEMENT>
+	<!-- mod IC2 Adv. solar panel -->
+	<ELEMENT nom="sunnarium" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="6" nom="matter" />
+			<INGEDIENT qte="3" nom="glowstone dust" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="adv. solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="reinforced glass" />
+			<INGEDIENT qte="2" nom="adv. alloy" />
+			<INGEDIENT qte="2" nom="adv. circuit" />
+			<INGEDIENT qte="1" nom="solar panel" />	
+			<INGEDIENT qte="1" nom="adv. machine" />	
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="hybrid solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="carbon plate" />
+			<INGEDIENT qte="1" nom="lapis lazuli bloc" />
+			<INGEDIENT qte="2" nom="iridium plate" />
+			<INGEDIENT qte="1" nom="sunnarium" />	
+			<INGEDIENT qte="1" nom="adv. solar panel" />	
+			<INGEDIENT qte="1" nom="adv. circuit" />	
+		</RECIPE>
+	</ELEMENT>
 </CRAFTS>
