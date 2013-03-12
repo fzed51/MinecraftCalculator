@@ -160,33 +160,33 @@
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="copper cable">
-		<QTE>9</QTE>
+		<QTE>6</QTE>
 		<RECIPE>
 			<INGEDIENT qte="3" nom="copper" />		
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="insulted copper cable">
-		<QTE>9</QTE>
+		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="1" nom="copper cable" />				
 			<INGEDIENT qte="1" nom="rubber" />				
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="gold cable">
-		<QTE>9</QTE>
+		<QTE>12</QTE>
 		<RECIPE>
 			<INGEDIENT qte="3" nom="or" />		
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="single insulted gold cable">
-		<QTE>9</QTE>
+		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="1" nom="gold cable" />		
 			<INGEDIENT qte="1" nom="rubber" />		
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="double insulted gold cable">
-		<QTE>9</QTE>
+		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="1" nom="single insulted gold cable" />		
 			<INGEDIENT qte="1" nom="rubber" />		
