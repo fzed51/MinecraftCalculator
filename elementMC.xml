@@ -141,7 +141,7 @@
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="four">
-		<QTE>41</QTE>
+		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="8" nom="pierre" />		
 		</RECIPE>
