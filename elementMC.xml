@@ -1,12 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CRAFTS>
-	<ELEMENT nom="buche">
+	<!-- Vanilla -->
+	<ELEMENT nom="bois">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="gravier">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="neige">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="obsidienne">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="pierre">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="roche">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="sable">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="terre">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="verre">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="laine">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="redstone">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="ble">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="cactus">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="canne a sucre">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="champignon">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="citrouille">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="feuillage">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="fleur">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="sable des ames">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="verrue du nether">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="argile">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="baton de blaze">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="boule de slime">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="cuir">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="emeraude">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="ficelle">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="diamant">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="larme de ghast">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="perle du nean">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="plume">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="poudre a canon">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="poudre de glowstone">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="silex">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="etoile du nether">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="fer">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="or">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="os">
 		<QTE>0</QTE>
 	</ELEMENT>
 	<ELEMENT nom="planche">
 		<QTE>4</QTE>
 		<RECIPE>
-			<INGEDIENT qte="1" nom="buche" />			
+			<INGEDIENT qte="1" nom="bois" />			
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="baton">
@@ -29,6 +138,58 @@
 		<RECIPE>
 			<INGEDIENT qte="1" nom="charbon" />			
 			<INGEDIENT qte="1" nom="baton" />			
+		</RECIPE>
+	</ELEMENT>
+	<!-- Industrial craft 2 -->
+	<ELEMENT nom="tin">
+		<QTE>0</QTE>
+	</ELEMENT>	
+	<ELEMENT nom="rubber">
+		<QTE>0</QTE>
+	</ELEMENT>	
+	<ELEMENT nom="copper">
+		<QTE>0</QTE>
+	</ELEMENT>	
+	<ELEMENT nom="uranium">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="tin cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="tin" />		
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="copper cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="copper" />		
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="insulted copper cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="copper cable" />				
+			<INGEDIENT qte="1" nom="rubber" />				
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="gold cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="or" />		
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="single insulted gold cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="gold cable" />		
+			<INGEDIENT qte="1" nom="rubber" />		
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="double insulted gold cable">
+		<QTE>9</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="single insulted gold cable" />		
+			<INGEDIENT qte="1" nom="rubber" />		
 		</RECIPE>
 	</ELEMENT>
 </CRAFTS>
