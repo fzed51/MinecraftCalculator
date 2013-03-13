@@ -4,6 +4,10 @@ DicoCraft = (function(global){
 		this._strListe = '';
 		this._ressource = Array();
 		this._craft = Array();
+		if(fichierXML !== undefined && fichierXML != '')this.ImportXML(fichierXML);
+	};
+	DicoCraft.prototype.constructor = "DicoCraft";
+	DicoCraft.prototype.ImportXML = function(fichierXML){
 		var that = this;
 		if(jQuery){
 			$.ajax({
@@ -16,9 +20,10 @@ DicoCraft = (function(global){
 						function(){
 							var elem,
 								nom = $(this).attr('nom'),
-								libelle = null;
-							if(typeof(global.MCC_LANGAGE) !== 'undefined'){
-								libelle + $(this).attr(global.MCC_LANGAGE);
+								libelle = nom;
+							if(global.MCC_LANGAGE !== undefined){
+								libelle = new String($(this).attr(global.MCC_LANGAGE))
+								if(libelle == 'undefined')libelle = nom;
 							}
 							var qte = parseInt($(this).find('QTE').text());
 							if(!that.craftExiste(nom)){
@@ -28,11 +33,7 @@ DicoCraft = (function(global){
 									function(){
 										var nom = $(this).attr('nom');
 										var qte = parseInt($(this).attr('qte'));
-										if(that.craftExiste(nom)){
-											elem.addIngedient(that.getCraft(nom), qte);
-										}else{
-											console.warn('Recette incomplète pour "'+elem.getNom()+'", "'+nom+'" n\'existe pas!');
-										}
+										elem.addIngedient(that.getCraft(nom), qte);
 									}
 								);
 								that.addCraft(elem);
@@ -45,7 +46,9 @@ DicoCraft = (function(global){
 			});
 		}
 	};
-	DicoCraft.prototype.constructor = "DicoCraft";
+	DicoCraft.prototype.controlIntegrite = function(){
+		
+	}
 	DicoCraft.prototype.craftExiste = function(element)
 	{
 		return (this._strListe.indexOf(('['+element+']')) >= 0);
