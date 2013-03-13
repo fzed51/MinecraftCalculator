@@ -49,12 +49,16 @@ Craft = (function(global){
 	};
 	Craft.prototype.addIngedient = function(/*Craft*/ element, /*number*/ qte)
 	{
-		var ingredient = Array(qte, element);
-		if(!this.ingredientExiste(element)){
-			this._recipe.push(ingredient);
-			this._strRecipe += '['+element.getNom()+']'
-		}else{
-			console.warn('Ingredient "'+ element.getNom() +'" en doublon dans "'+ this._nom +'"!');
+		if(element == null){
+			console.warn("Impossible d'ajouter un ingrédient à '"+this.getLibelle()+"' car il n'existe pas!");
+	    }else{
+			var ingredient = Array(qte, element);
+			if(!this.ingredientExiste(element)){
+				this._recipe.push(ingredient);
+				this._strRecipe += '['+element.getNom()+']'
+			}else{
+				console.warn('Ingredient "'+ element.getNom() +'" en doublon dans "'+ this._nom +'"!');
+			}
 		}
 		return this;
 	};

@@ -4,7 +4,7 @@ DicoCraft = (function(global){
 		this._strListe = '';
 		this._ressource = Array();
 		this._craft = Array();
-		if(fichierXML !== undefined && fichierXML != '')this.ImportXML(fichierXML);
+		if(fichierXML !== undefined && fichierXML != '')this.importXML(fichierXML);
 	};
 	DicoCraft.prototype.constructor = "DicoCraft";
 	DicoCraft.prototype.importXML = function(fichierXML){
@@ -52,7 +52,7 @@ DicoCraft = (function(global){
 			var craft = this._craft[i];
 			for(var j=0; j<craft._recipe.length; j++){
 				var ingredient = craft._recipe[j];
-				if(!that.craftExiste(ingredient.getNom())){
+				if(!this.craftExiste(ingredient[1].getNom())){
 					console.warn('Recette incomplète pour "'+craft.getLibelle()+'", "'+ingredient.getLibelle()+'" n\'existe pas!');
 				}
 			}
@@ -68,6 +68,7 @@ DicoCraft = (function(global){
 			var elem = this._liste[i];
 			if(elem.getNom() == nom)return elem;
 		}
+		console.warn("Le craft '"+nom+"' n'existe pas!");
 		return null;
 	}
 	DicoCraft.prototype.addCraft = function(craft)
