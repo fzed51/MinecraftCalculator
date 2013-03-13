@@ -156,6 +156,12 @@
 			<INGEDIENT qte="8" nom="cobblestone" />		
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="lapis lazuli block" fr="four" mod="MC">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="9" nom="lapis lazuli" />		
+		</RECIPE>
+	</ELEMENT>
 	<!-- Industrial craft 2 -->
 	<ELEMENT nom="tin" mod="IC2">
 		<QTE>0</QTE>
@@ -381,6 +387,23 @@
 			<INGEDIENT qte="4" nom="iridium" />
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="coal ball" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="coal dust" />
+			<INGEDIENT qte="1" nom="flint" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="compressed coal ball" mod="IC2">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="coal chunk" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="obsidian" />
+			<INGEDIENT qte="4" nom="compressed coal ball" />
+		</RECIPE>
+	</ELEMENT>
 	<!-- mod IC2 Adv. solar panel -->
 	<ELEMENT nom="sunnarium" mod="IC2_AdvSP">
 		<QTE>1</QTE>
@@ -403,11 +426,27 @@
 		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="2" nom="carbon plate" />
-			<INGEDIENT qte="1" nom="lapis lazuli bloc" />
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
 			<INGEDIENT qte="2" nom="iridium plate" />
 			<INGEDIENT qte="1" nom="sunnarium" />	
 			<INGEDIENT qte="1" nom="adv. solar panel" />	
 			<INGEDIENT qte="1" nom="adv. circuit" />	
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="sunnarium alloy" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="iridium plate" />
+			<INGEDIENT qte="1" nom="sunnarium" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="ultimate hybrid solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="1" nom="hybrid solar panel" />
+			<INGEDIENT qte="3" nom="coal chunk" />
+			<INGEDIENT qte="2" nom="sunnarium alloy" />
 		</RECIPE>
 	</ELEMENT>
 </CRAFTS>
