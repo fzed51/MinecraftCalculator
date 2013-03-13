@@ -12,4 +12,4 @@ Application html/javascript qui permet de connetre les ressources necessaire pou
 
 # TODO
 
-* Modification du constructeur de DicoCraft pour permetre de custumiser les dictionnaires. Séparer les dictionnaire des different mod
+* Compléter les recettes
