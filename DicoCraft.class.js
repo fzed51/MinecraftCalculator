@@ -7,7 +7,7 @@ DicoCraft = (function(global){
 		if(fichierXML !== undefined && fichierXML != '')this.ImportXML(fichierXML);
 	};
 	DicoCraft.prototype.constructor = "DicoCraft";
-	DicoCraft.prototype.ImportXML = function(fichierXML){
+	DicoCraft.prototype.importXML = function(fichierXML){
 		var that = this;
 		if(jQuery){
 			$.ajax({
@@ -45,9 +45,18 @@ DicoCraft = (function(global){
 				}
 			});
 		}
+		this.controlIntegrite();
 	};
 	DicoCraft.prototype.controlIntegrite = function(){
-		
+		for(var i=0; i<this._craft.length; i++){
+			var craft = this._craft[i];
+			for(var j=0; j<craft._recipe.length; j++){
+				var ingredient = craft._recipe[j];
+				if(!that.craftExiste(ingredient.getNom())){
+					console.warn('Recette incomplète pour "'+craft.getLibelle()+'", "'+ingredient.getLibelle()+'" n\'existe pas!');
+				}
+			}
+		}
 	}
 	DicoCraft.prototype.craftExiste = function(element)
 	{
