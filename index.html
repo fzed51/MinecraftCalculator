@@ -12,11 +12,12 @@
 			select = $('#craft');
 		for(var i=0;i<lstCraft.length;i++){
 			var nom = lstCraft[i].getNom();
-			var opt =$('<option>').attr('value',nom).text(nom);
+			var lib = lstCraft[i].getLibelle();
+			var opt =$('<option>').attr('value',nom).text(lib);
 			select.append(opt);
 		}
 	}
-	
+	window.MCC_LANGAGE = 'fr';
 	var dico = new DicoCraft('elementMC.xml');
 	$(function(){
 		initChoixCraft(dico);
@@ -26,7 +27,7 @@
 			var result = dico.getRessourceFor(nomElem, qteElem);
 			var strResult = '';
 			for(var i=0;i<result.length; i++){
-				strResult += '<p>' + result[i][0] + ' ' + result[i][1].getNom() + '</p>';
+				strResult += '<p>' + result[i][0] + ' ' + result[i][1].getLibelle() + '</p>';
 			}
 			$('#result').html(strResult);
 		});

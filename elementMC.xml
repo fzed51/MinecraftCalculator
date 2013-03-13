@@ -153,7 +153,13 @@
 	<ELEMENT nom="furnace" fr="four" mod="MC">
 		<QTE>1</QTE>
 		<RECIPE>
-			<INGEDIENT qte="8" nom="cobblestone" />		
+			<INGEDIENT qte="8" nom="cobblestone" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="lapis lazuli block" fr="four" mod="MC">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="9" nom="lapis lazuli" />
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="lapis lazuli block" fr="four" mod="MC">
