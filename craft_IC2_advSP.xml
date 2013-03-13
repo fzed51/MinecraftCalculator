@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CRAFTS>
+	<!-- mod IC2 Adv. solar panel -->
+	<ELEMENT nom="sunnarium" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="6" nom="matter" />
+			<INGEDIENT qte="3" nom="glowstone dust" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="adv. solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="reinforced glass" />
+			<INGEDIENT qte="2" nom="adv. alloy" />
+			<INGEDIENT qte="2" nom="adv. circuit" />
+			<INGEDIENT qte="1" nom="solar panel" />	
+			<INGEDIENT qte="1" nom="adv. machine" />	
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="hybrid solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="carbon plate" />
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="2" nom="iridium plate" />
+			<INGEDIENT qte="1" nom="sunnarium" />	
+			<INGEDIENT qte="1" nom="adv. solar panel" />	
+			<INGEDIENT qte="1" nom="adv. circuit" />	
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="sunnarium alloy" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="iridium plate" />
+			<INGEDIENT qte="1" nom="sunnarium" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="ultimate hybrid solar panel" mod="IC2_AdvSP">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="1" nom="hybrid solar panel" />
+			<INGEDIENT qte="3" nom="coal chunk" />
+			<INGEDIENT qte="2" nom="sunnarium alloy" />
+		</RECIPE>
+	</ELEMENT>
+</CRAFTS>

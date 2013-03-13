@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CRAFTS>
+	<!-- Vanilla -->
+	<ELEMENT nom="wood" fr="bois" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="gravel" fr="gravier" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="snowball" fr="neige" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="obsidian" fr="obsidienne" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="cobblestone" fr="pierre" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="stone" fr="roche" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="sand" fr="sable" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="dirt" fr="terre" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="glass" fr="verre" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="wool" fr="laine" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="redstone" fr="redstone" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="wheat" fr="ble" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="cactus" fr="cactus" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="sugar cane" fr="canne a sucre" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="mushrooms" fr="champignon" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="pumpkin" fr="citrouille" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="leaves" fr="feuillage" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="flowers" fr="fleur" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="soul sand" fr="sable des ames" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="nether wart" fr="verrue du nether" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="clay" fr="argile" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="blaze rod" fr="baton de blaze" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="slimeball" fr="boule de slime" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="leather" fr="cuir" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="emerald" fr="emeraude" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="string" fr="ficelle" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="diamond" fr="diamant" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="ghast tear" fr="larme de ghast" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="ender pearl" fr="perle du nean" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="feather" fr="plume" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="gunpowder" fr="poudre a canon" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="glowstone dust" fr="poudre de glowstone" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="flint" fr="silex" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="nether star" fr="etoile du nether" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="iron" fr="fer" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="gold" fr="or" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="bone" fr="os" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="lapis lazuli" fr="lapis lazuli" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="wood planks" fr="planche" mod="MC">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="wood" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="stick" fr="baton" mod="MC">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="wood planks" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="ladder" fr="echelle" mod="MC">
+		<QTE>3</QTE>
+		<RECIPE>		
+			<INGEDIENT qte="7" nom="stick" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="coal" fr="charbon" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="torch" fr="torche" mod="MC">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="coal" />			
+			<INGEDIENT qte="1" nom="stick" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="lever" fr="levier" mod="MC">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="cobblestone" />			
+			<INGEDIENT qte="1" nom="stick" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="furnace" fr="four" mod="MC">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="8" nom="cobblestone" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="lapis lazuli block" fr="bloc de lapis-lazuli" mod="MC">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="9" nom="lapis lazuli" />
+		</RECIPE>
+	</ELEMENT>
+</CRAFT>

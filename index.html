@@ -18,7 +18,9 @@
 		}
 	}
 	window.MCC_LANGAGE = 'fr';
-	var dico = new DicoCraft('elementMC.xml');
+	var dico = new DicoCraft('craft_MC.xml');
+	dico.importXML('craft_IC2.xml');
+	dico.importXML('craft_IC2_advSP.xml');
 	$(function(){
 		initChoixCraft(dico);
 		$('#run').on('click', function(){
