@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CRAFTS>
 	<!-- Industrial craft 2 -->
+	<!-- http://wiki.industrial-craft.net/index.php?title=Recipes_and_Resources -->
 	<ELEMENT nom="tin" mod="IC2">
 		<QTE>0</QTE>
 	</ELEMENT>	
@@ -41,6 +42,9 @@
 		<QTE>0</QTE>
 	</ELEMENT>
 	<ELEMENT nom="carbon plate" mod="IC2">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="copper plate" mod="IC2">
 		<QTE>0</QTE>
 	</ELEMENT>
 	<ELEMENT nom="tin cable" mod="IC2">
@@ -148,6 +152,12 @@
 			<INGEDIENT qte="4" nom="redstone" />
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="cell" mod="IC2">
+		<QTE>16</QTE>
+		<RECIPE>
+			<INGEDIENT qte="4" nom="tin" />
+		</RECIPE>
+	</ELEMENT>
 	<ELEMENT nom="re battery" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
@@ -240,6 +250,115 @@
 		<RECIPE>
 			<INGEDIENT qte="1" nom="obsidian" />
 			<INGEDIENT qte="4" nom="compressed coal ball" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="batbox" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="copper cable" />
+			<INGEDIENT qte="5" nom="wood planks" />
+			<INGEDIENT qte="3" nom="re battery" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="mfe unit" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="machine" />
+			<INGEDIENT qte="4" nom="1ins. gold cable" />
+			<INGEDIENT qte="4" nom="energy cristal" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="mfs unit" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="adv. circuit" />
+			<INGEDIENT qte="1" nom="mfe unit" />
+			<INGEDIENT qte="1" nom="adv. machine" />
+			<INGEDIENT qte="6" nom="lapotron cristal" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="lv transformer" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="copper" />
+			<INGEDIENT qte="2" nom="copper cable" />
+			<INGEDIENT qte="4" nom="wood planks" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="mv transformer" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="machine" />
+			<INGEDIENT qte="1" nom="1ins. gold cable" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="hv transformer" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="elec. circuit" />
+			<INGEDIENT qte="2" nom="3ins. hv cable" />
+			<INGEDIENT qte="1" nom="energy cristal" />
+			<INGEDIENT qte="1" nom="mv transformer" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="geothermal generator" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="4" nom="glass" />
+			<INGEDIENT qte="2" nom="cell" />
+			<INGEDIENT qte="1" nom="generator" />
+			<INGEDIENT qte="2" nom="refined iron" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="water mill" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="generator" />
+			<INGEDIENT qte="4" nom="wood planks" />
+			<INGEDIENT qte="4" nom="stick" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="wind mill" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="generator" />
+			<INGEDIENT qte="4" nom="iron" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="reactor chamber" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="machine" />
+			<INGEDIENT qte="4" nom="copper plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="nuclear reactor" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="generator" />
+			<INGEDIENT qte="1" nom="adv. circuit" />
+			<INGEDIENT qte="3" nom="reactor chamber" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="uranium cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="cell" />
+			<INGEDIENT qte="1" nom="uranium" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="2 uranium cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="copper plate" />
+			<INGEDIENT qte="2" nom="uranium cell" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="4 uranium cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="copper plate" />
+			<INGEDIENT qte="2" nom="2 uranium cell" />
 		</RECIPE>
 	</ELEMENT>
 </CRAFTS>
