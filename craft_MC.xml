@@ -115,6 +115,34 @@
 	<ELEMENT nom="lapis lazuli" fr="lapis lazuli" mod="MC">
 		<QTE>0</QTE>
 	</ELEMENT>
+	<ELEMENT nom="water bucket" fr="seau d'eau" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="rose" fr="rose" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="dandelion" fr="pissenlit" mod="MC">
+		<QTE>0</QTE>
+	</ELEMENT>
+	<ELEMENT nom="rose red" fr="rouge de rose" mod="MC">
+		<QTE>2</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="rose" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="dandelion yelow" fr="petal de pissenlit" mod="MC">
+		<QTE>2</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="dandelion" />			
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="orange die" fr="colorant orange" mod="MC">
+		<QTE>4</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="rose red" />			
+			<INGEDIENT qte="1" nom="dandelion yelow" />			
+		</RECIPE>
+	</ELEMENT>
 	<ELEMENT nom="wood planks" fr="planche" mod="MC">
 		<QTE>4</QTE>
 		<RECIPE>
@@ -160,6 +188,12 @@
 		<QTE>1</QTE>
 		<RECIPE>
 			<INGEDIENT qte="9" nom="lapis lazuli" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="iron bars" fr="barreaux de fer" mod="MC">
+		<QTE>16</QTE>
+		<RECIPE>
+			<INGEDIENT qte="6" nom="iron" />
 		</RECIPE>
 	</ELEMENT>
 </CRAFTS>

@@ -361,4 +361,156 @@
 			<INGEDIENT qte="2" nom="2 uranium cell" />
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="water cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="water bucket" />
+			<INGEDIENT qte="1" nom="cell" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="10k cooling cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="water cell" />
+			<INGEDIENT qte="4" nom="tin" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="30k cooling cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="10k cooling cell" />
+			<INGEDIENT qte="6" nom="tin" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="60k cooling cell" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="30k cooling cell" />
+			<INGEDIENT qte="1" nom="copper plate" />
+			<INGEDIENT qte="6" nom="tin" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="overclocker upgrade" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="3" nom="10k cooling cell" />
+			<INGEDIENT qte="1" nom="elec. circuit" />
+			<INGEDIENT qte="2" nom="copper cable" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="transformer upgrade" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="mv transformer" />
+			<INGEDIENT qte="1" nom="elec. circuit" />
+			<INGEDIENT qte="2" nom="2ins. gold cable" />
+			<INGEDIENT qte="5" nom="glass" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="energy storage upgrade" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="re battery" />
+			<INGEDIENT qte="1" nom="elec. circuit" />
+			<INGEDIENT qte="2" nom="copper cable" />
+			<INGEDIENT qte="5" nom="wood planks" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="nano helmet" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="energy cristal" />
+			<INGEDIENT qte="1" nom="glass" />
+			<INGEDIENT qte="4" nom="carbon plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="nano body armor" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="energy cristal" />
+			<INGEDIENT qte="7" nom="carbon plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="nano leggings" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="energy cristal" />
+			<INGEDIENT qte="6" nom="carbon plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="nano boots" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="energy cristal" />
+			<INGEDIENT qte="4" nom="carbon plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="rubber boots" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="wool" />
+			<INGEDIENT qte="6" nom="rubber" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="quantum helmet" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="nano helmet" />
+			<INGEDIENT qte="1" nom="lapotron cristal" />
+			<INGEDIENT qte="1" nom="reinforced glass" />
+			<INGEDIENT qte="2" nom="iridium plate" />
+			<INGEDIENT qte="2" nom="adv. circuit" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="quantum body armor" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="nano body armor" />
+			<INGEDIENT qte="1" nom="lapotron cristal" />
+			<INGEDIENT qte="3" nom="adv. alloy" />
+			<INGEDIENT qte="4" nom="iridium plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="quantum leggings" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="nano leggings" />
+			<INGEDIENT qte="1" nom="lapotron cristal" />
+			<INGEDIENT qte="2" nom="machine" />
+			<INGEDIENT qte="2" nom="iridium plate" />
+			<INGEDIENT qte="2" nom="glowstone dust" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="quantum boots" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="nano boots" />
+			<INGEDIENT qte="1" nom="lapotron cristal" />
+			<INGEDIENT qte="2" nom="iridium plate" />
+			<INGEDIENT qte="2" nom="rubber boots" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="scuba helmet" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="orange die" />
+			<INGEDIENT qte="1" nom="glass" />
+			<INGEDIENT qte="4" nom="rubber" />
+			<INGEDIENT qte="1" nom="iron bars" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="hazmat suit" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="orange die" />
+			<INGEDIENT qte="6" nom="rubber" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="hazmat suit leggings" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="orange die" />
+			<INGEDIENT qte="6" nom="rubber" />
+		</RECIPE>
+	</ELEMENT>
 </CRAFTS>
