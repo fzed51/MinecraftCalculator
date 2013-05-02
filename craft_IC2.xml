@@ -361,6 +361,74 @@
 			<INGEDIENT qte="2" nom="2 uranium cell" />
 		</RECIPE>
 	</ELEMENT>
+	<ELEMENT nom="heat vent" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="4" nom="refined iron" />
+			<INGEDIENT qte="4" nom="iron bars" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="reactor heat vent" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="copper plate" />
+			<INGEDIENT qte="1" nom="heat vent" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="advanced heat vent" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="6" nom="iron bars" />
+			<INGEDIENT qte="2" nom="heat vent" />
+			<INGEDIENT qte="1" nom="diamond" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="component heat vent" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="4" nom="iron bars" />
+			<INGEDIENT qte="4" nom="tin" />
+			<INGEDIENT qte="1" nom="heat vent" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="overclocked heat vent" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="2" nom="gold" />
+			<INGEDIENT qte="1" nom="reactor heat vent" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="heat exchanger" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="elec. circuit" />
+			<INGEDIENT qte="3" nom="tin" />
+			<INGEDIENT qte="1" nom="copper plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="adv. heat exchanger" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="copper plate" />
+			<INGEDIENT qte="2" nom="elec. circuit" />
+			<INGEDIENT qte="2" nom="heat exchanger" />
+			<INGEDIENT qte="4" nom="glass fibre cable" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="core heat exchanger" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="heat exchanger" />
+			<INGEDIENT qte="2" nom="copper plate" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="component heat exchanger" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="heat exchanger" />
+			<INGEDIENT qte="4" nom="gold" />
+		</RECIPE>
+	</ELEMENT>
 	<ELEMENT nom="water cell" mod="IC2">
 		<QTE>1</QTE>
 		<RECIPE>
