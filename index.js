@@ -14,7 +14,8 @@ dico.importXML('craft_IC2.xml');
 dico.importXML('craft_IC2_advSP.xml');
 $(function(){
 	initChoixCraft(dico);
-	$('#run').on('click', function(){
+	$('#calcul').on('submit', function(event){
+		event.stopPropagation();
 		var nomElem = $('#craft').val();
 		var qteElem = $('#nbCraft').val();
 		var result = dico.getRessourceFor(nomElem, qteElem);
@@ -23,5 +24,6 @@ $(function(){
 			strResult += '<p>' + result[i][0] + ' ' + result[i][1].getLibelle() + '</p>';
 		}
 		$('#result').html(strResult);
+		return false;
 	});
 });
