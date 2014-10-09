@@ -1,5 +1,6 @@
-DicoCraft = (function(global){	
-	var DicoCraft = function(/*string*/ fichierXML){
+DicoCraft = (
+	function(global){	
+		var DicoCraft = function(/*string*/ fichierXML){
 		this._liste = Array();
 		this._strListe = '';
 		this._ressource = Array();
@@ -58,12 +59,10 @@ DicoCraft = (function(global){
 			}
 		}
 	}
-	DicoCraft.prototype.craftExiste = function(element)
-	{
+	DicoCraft.prototype.craftExiste = function(element)	{
 		return (this._strListe.indexOf(('['+element+']')) >= 0);
 	};
-	DicoCraft.prototype.getCraft = function(nom)
-	{
+	DicoCraft.prototype.getCraft = function(nom)	{
 		for(var i=0; i< this._liste.length; i++){
 			var elem = this._liste[i];
 			if(elem.getNom() == nom)return elem;
@@ -71,8 +70,7 @@ DicoCraft = (function(global){
 		console.warn("Le craft '"+nom+"' n'existe pas!");
 		return null;
 	}
-	DicoCraft.prototype.addCraft = function(craft)
-	{	
+	DicoCraft.prototype.addCraft = function(craft)	{	
 		if(!this.craftExiste(craft.getNom())){
 			this._liste.push(craft);
 			if(craft.getQte() == 0){
@@ -85,8 +83,7 @@ DicoCraft = (function(global){
 			console.warn('Attention : "'+ nom +'" existe déjà!');
 		}
 	}
-	DicoCraft.prototype.getRessourceFor = function(/*string*/ nomCraft, /*number*/ qte)
-	{
+	DicoCraft.prototype.getRessourceFor = function(/*string*/ nomCraft, /*number*/ qte)	{
 		var element = this.getCraft(nomCraft),
 			listeRessource = Array();
 		for(var i=0; i<this._ressource.length; i++){
@@ -96,8 +93,7 @@ DicoCraft = (function(global){
 		}
 		return listeRessource;
 	}
-	DicoCraft.prototype.getListe = function()
-	{
+	DicoCraft.prototype.getListe = function()	{
 		return this._liste;
 	}
 	return DicoCraft;

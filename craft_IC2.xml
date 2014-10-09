@@ -4,7 +4,7 @@
 	<!-- http://wiki.industrial-craft.net/index.php?title=Recipes_and_Resources -->
 	<ELEMENT nom="tin" mod="IC2">
 		<QTE>0</QTE>
-	</ELEMENT>	
+	</ELEMENT>
 	<ELEMENT nom="rubber" mod="IC2">
 		<QTE>0</QTE>
 	</ELEMENT>	
@@ -396,6 +396,24 @@
 		<RECIPE>
 			<INGEDIENT qte="2" nom="gold" />
 			<INGEDIENT qte="1" nom="reactor heat vent" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="rsh condensator" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="7" nom="redstone" />
+			<INGEDIENT qte="1" nom="heat vent" />
+			<INGEDIENT qte="1" nom="heat exchanger" />
+		</RECIPE>
+	</ELEMENT>
+	<ELEMENT nom="lzh condensator" mod="IC2">
+		<QTE>1</QTE>
+		<RECIPE>
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="4" nom="redstone" />
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
+			<INGEDIENT qte="1" nom="lapis lazuli block" />
 		</RECIPE>
 	</ELEMENT>
 	<ELEMENT nom="heat exchanger" mod="IC2">
